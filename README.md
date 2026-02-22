@@ -96,8 +96,8 @@ Language detection and structured routing implemented.
 
 ## 📬 Contact
 
-- LinkedIn: https://www.linkedin.com/in/SEU-LINKEDIN-AQUI
-- Email: (optional)
+- LinkedIn: https://www.linkedin.com/in/SEU-LINKEDIN-AQUI](https://www.linkedin.com/in/luizolivieriqa/
+- Email: luizolivieriqa@contactgeng.com
 
 ---
 
