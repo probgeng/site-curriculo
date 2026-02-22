@@ -41,20 +41,6 @@
 <link rel="alternate" hreflang="pt-br" href="https://www.contactgeng.com/">
 <link rel="alternate" hreflang="en" href="https://www.contactgeng.com/en/">
 
-<script>
-  const savedLang = localStorage.getItem("siteLang");
-
-  if (!savedLang) {
-    const userLang = navigator.language || navigator.userLanguage;
-
-    if (userLang.startsWith("en")) {
-      localStorage.setItem("siteLang", "en");
-      window.location.href = "/en/";
-    } else {
-      localStorage.setItem("siteLang", "pt");
-    }
-  }
-</script>
 <link rel="stylesheet" href="/style.css">
 </head>
 
