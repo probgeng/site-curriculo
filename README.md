@@ -62,15 +62,25 @@ Language detection and structured routing implemented.
 ## 📂 Project Structure
 /
 ├── index.html
-├── /en
-│ └── index.html
 ├── style.css
 ├── lang.js
+├── favicon.ico
 ├── robots.txt
 ├── sitemap.xml
-├── favicon.ico
-└── preview.webp
-
+├── README.md
+│
+├── /en
+│   └── index.html
+│
+├── /assets
+│   ├── preview.png
+│   └── images (se tiver mais no futuro)
+│
+├── /docs
+│   ├── cv-pt.pdf
+│   └── luiz-olivieri-resume.pdf
+│
+└── /.git
 
 ---
 
@@ -96,7 +106,7 @@ Language detection and structured routing implemented.
 
 ## 📬 Contact
 
-- LinkedIn: https://www.linkedin.com/in/SEU-LINKEDIN-AQUI](https://www.linkedin.com/in/luizolivieriqa/
+- LinkedIn: https://www.linkedin.com/in/luizolivieriqa/
 - Email: luizolivieriqa@contactgeng.com
 
 ---
