@@ -36,10 +36,6 @@
 <title>Luiz Olivieri | QA Engineer | Brasil</title>
 
 <meta name="description" content="QA Engineer no Brasil com experiência em testes manuais, automação com Robot Framework, Playwright e Selenium, APIs e metodologias ágeis.">
-
-<meta property="og:title" content="Luiz Olivieri | QA Engineer">
-<meta property="og:description" content="QA Engineer especializado em automação e testes de API.">
-<meta property="og:type" content="website">
 <meta http-equiv="X-Content-Type-Options" content="nosniff">
 <meta http-equiv="Referrer-Policy" content="strict-origin-when-cross-origin">
 
@@ -144,8 +140,20 @@ sections.forEach(section => {
 </script>
 
 <script>
-  localStorage.setItem("siteLang", "pt");
-</script>
+  if (window.location.pathname === "/") {
+    const savedLang = localStorage.getItem("siteLang");
 
+    if (!savedLang) {
+      const userLang = navigator.language || navigator.userLanguage;
+
+      if (userLang.startsWith("en")) {
+        localStorage.setItem("siteLang", "en");
+        window.location.replace("/en/");
+      } else {
+        localStorage.setItem("siteLang", "pt");
+      }
+    }
+  }
+</script>
 </body>
 </html>
