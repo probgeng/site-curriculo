@@ -45,31 +45,6 @@ Language detection and structured routing implemented.
 
 ---
 
-## 📂 Project Structure
-/
-├── index.html
-├── style.css
-├── lang.js
-├── favicon.ico
-├── robots.txt
-├── sitemap.xml
-├── README.md
-│
-├── /en
-│   └── index.html
-│
-├── /assets
-│   ├── preview.png
-│   └── images (se tiver mais no futuro)
-│
-├── /docs
-│   ├── cv-pt.pdf
-│   └── luiz-olivieri-resume.pdf
-│
-└── /.git
-
----
-
 ## 🔐 Security & Infrastructure
 
 - Hosted on Cloudflare Pages
