@@ -4,7 +4,7 @@ Personal portfolio website of Luiz Olivieri, QA Engineer focused on test automat
 
 Personal portfolio website built to present my professional experience as a QA Engineer focused on software quality, test automation and API validation.
 
-🌐 Live Website: https://www.contactgeng.com  
+🌐 Website: https://www.contactgeng.com  
 🌎 English Version: https://www.contactgeng.com/en/
 
 ---
@@ -31,20 +31,6 @@ The goal is to demonstrate not only my professional background, but also enginee
 - Vanilla JavaScript
 - Google Fonts (Inter)
 - Cloudflare Pages (Hosting & CDN)
-- Cloudflare Security & Performance features
-
----
-
-## ⚡ Performance & Optimization
-
-- Lighthouse Performance: 98+
-- SEO Score: 100
-- Optimized Open Graph preview
-- Sitemap.xml
-- Robots.txt
-- Canonical & hreflang implementation
-- HTTPS enforced
-- HTTP/3 enabled via Cloudflare
 
 ---
 
